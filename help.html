@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/pages/products.html">Products</a></li>
+        <li><a href="/pages/orders.html">Orders</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/help.html">Help</a></li>
+    </ul>
+    <h1>Ez egy címsor.</h1>
+    <h3>Ez egy címsor.</h3>
+    <h6>Ez egy címsor.</h6>
+    <p>Ez egy bekezdés.</p>
+    <p>A címsorok neve h (heading) betűvel kezdődik.
+        A h1 a legnagyobb, utána csökkenő sorrendben egészen a h6-ig.
+        Általában a tartalom tagolására használjuk őket. A Google és a többi kereső is kiemelten figyelmbe veszi őket,
+        ha például a címsor szövege nincs összefüggésben az alatta található tartalommal, a keresők hátrébb sorolják az
+        oldalt,
+        úgymond büntetik.</p>
+    <p>It is <em> very important </em> <strong>text</strong>.</p>
+    <p> Az em (vagy i) elem a tartalmát, hangsúlyozottan, kiemelt szövegként jeleníti meg.
+        Tipp: Jelenleg is szabványos elem, de szebb hatást érhetsz el CSS használatával.
+        A strong (vagy b) elem is szövegek formázására való. Ez egy fontosabb szövegrészletet határoz meg.
+        Tipp: Szintén igaz rá, hogy szebb hatást érhetsz el CSS használatával.</p>
+    <p>Blokk szintű elemek<br>
+        A blokk szintű elemek mindig új sorban kezdődnek, és akkor sem kerülnek másik elem mellé, ha amúgy elférnének
+        tőle. Azaz előttük utánuk sortörés van és általában nagyobb margóval rendelkeznek, távolabb vannak a többi
+        elemtől.<br>
+        Inline elemek<br>
+        Mivel minden elem ami nem blokk szintű inline, ezért ezeket külön nem sorolnám fel. Amit meg kell róluk
+        jegyezni, hogy sorban egymás mellé teszi őket a böngésző, egészen addig amíg kiférnek. Ha már nem, akkor egy új
+        sorban folytatja a megjelenítésüket.<br>
+        Dokumentáció: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements">
+            https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements</a> <br /></p>
+    <p>Chrome DevTools F12 vagy jobb gomb, vizsgálat.</p>
+    <p>URL - Uniform Resource Locator
+        A tartalmak az interneten bárhol lehetnek. Hogyan találjuk meg őket? Ehhez kell az URL, ha ismerjük az adott
+        oldal vagy kép vagy film vagy bámi URL-jét, akkor a böngészőbe beírva meg tudod nézni vagy le tudod tölteni.<br>
+        Fontos, hogy minden erőforrásnak legyen egyedi azonosítója. Erre való az URL.<br>
+        Az URL részei<br>
+        Egy példa: https://www.training360.com/tanfolyami-naptar<br>
+        A https a használandó protokoll. A protokoll neve után kettőspont (:) írandó.<br>
+        A training360.com a célgép tartományneve. Ez elé két perjel (//) írandó.<br>
+        A 443 a célgép azon hálózati portszáma, amin kérésünket várja; ez elé kettőspont (:) írandó. Ezt a részt gyakran
+        teljesen elhagyhatjuk, például esetünkben a HTTPS protokoll alapértelmezett portszáma a 443.<br>
+        A /tanfolyami-naptar a kért elérési út a célgépen. Ez a rész mindig a perjellel (/) kezdődik</p>
+    <br>
+    <p>UL - Unordered List<br>
+        Elem: < ul>
+            < /ul>"<br>
+                Lista elemei: < li>
+                    < /li><br>
+                        OL - Ordered List<br>
+                        Elem: < ol>
+                            < /ol><br>
+                                Lista elemei: < li>
+                                    < /li>
+    </p><br>
+
+    <p> Image elem
+        Elem: < img> Képek megjelenítésére való. Self closed elem, azaz a végére nem kell másik < /img> tag.<br>
+                Az src attribútum adja meg, hogy honnan kerüljön a kép betöltésre.
+    </p>
+    <p> Anchor elem <br>
+        Elem: < a>
+            < /a> Kötelező attribútumok: href: az URL, ahová kattintás után jutsz. (< a target="_bl" új lapon) </p>
+                    <p>
+                        Table Elem: < table>
+                            < /table> <br>
+                                Fejléc: < thead>
+                                    < /thead> <br>
+                                        Sor: < tr></ tr> <br>
+                                        Fejléc cella: < th>
+                                            < /th> <br>
+                                                Cella: < td>
+                                                    < /td> <br>
+            Rowspan és Colspan A nevükből adódóan sorok és oszlopok összevonására valók. Ezek attribútumok, tehát nem önálló elemek, hanem a td vagy a th elem tulajdonságai.
+                    </p><br>
+</body>
+
+</html>
